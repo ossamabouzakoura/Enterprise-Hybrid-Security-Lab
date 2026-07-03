@@ -1,1 +1,3 @@
-This folder will store python scripts.
+# Python
+
+Python scripts used for automation, reporting, APIs and security-related tasks.
