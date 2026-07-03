@@ -1,1 +1,9 @@
-This direcotry will store the bash, powershell and python scripts used doe this project
+# Scripts
+
+This directory contains all automation scripts developed during the project.
+
+Scripts are organised by language:
+
+- PowerShell
+- Python
+- Bash
