@@ -24,7 +24,7 @@ The project uses an internal namespace to clearly separate the laboratory enviro
 
 EHSL follows a hybrid Organizational Unit (OU) model.
 
-Users and workstations are organized by department to simplify administration, delegation, and Group Policy assignment.
+Workstations are organized by device type or operational use case, not by department. User access is managed through security groups, while workstation OUs are used mainly for device configuration and GPO targeting.
 
 Infrastructure objects such as servers, groups, service accounts and privileged accounts are separated into dedicated OUs because they require different security controls.
 
@@ -42,13 +42,12 @@ EHSL
 │   ├── Sales
 │   └── Engineering
 │
-├── Workstations
-│   ├── IT
-│   ├── Security
-│   ├── HR
-│   ├── Finance
-│   ├── Sales
-│   └── Engineering
+Workstations
+├── Standard
+├── IT
+├── Kiosk
+├── Developers
+└── Testing
 │
 ├── Servers
 ├── Groups
